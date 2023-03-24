@@ -1,0 +1,44 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h1 {
+    background-color: skyblue;
+    font-size:50px;
+    color:rgb(24, 49, 49);
+    width:fit-content;
+    padding:10px;
+    position:relative;
+    top:30px;
+}
+header {
+    background-color: rgb(24, 49, 49)
+}
+.menu {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position:relative;
+    top:-60px;
+}
+ul a {
+    text-decoration:underline;
+    margin:0px 30px 0px 0px;
+    list-style: none;
+    font-size:25px;
+    color:skyblue;
+}
+.cool-stuff {
+    background-image: url();
+    opacity:0.5;
+    height:150px;
+}
+h2 {
+    font-size:40px;
+}
+.about-me {
+    display:flex;
+    align-items:flex-start;
+}
+.about-me h2 + p {
+    padding:40px;
+}
