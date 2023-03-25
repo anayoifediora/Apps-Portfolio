@@ -10,6 +10,10 @@ h1 {
     position:relative;
     top:30px;
 }
+h2 {
+    font-size: 40px;
+    
+}
 header {
     background-color: rgb(24, 49, 49)
 }
@@ -31,14 +35,81 @@ ul a {
     background-image: url();
     opacity:0.5;
     height:150px;
-}
-h2 {
-    font-size:40px;
-}
+}   
 .about-me {
     display:flex;
     align-items:flex-start;
+    padding:30px;
 }
-.about-me h2 + p {
-    padding:40px;
+p {
+    font-size:20px;
+    padding:30px;
+    margin-top:0px;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: rgb(24, 49, 49);
+}
+.about-me h2 {
+    margin-right:20px;
+}
+.my-work {
+    display:flex;
+    align-items:flex-start
+}
+.images {
+    position:relative;
+    left:65px;
+    border-left-style:solid;
+    border-left-width:5px;
+    border-left-color:rgb(24, 49, 49);
+}
+.first-project-image {
+    margin:20px;
+    height:500px;
+    width:1200px;
+    border:5px solid skyblue;
+    opacity:0.5;
+}
+.other-projects {
+    display:inline-block;
+    width:100%;
+    
+}
+.other-projects-image{
+    margin:20px;
+    height:300px;
+    width:572px;
+    border: 5px solid skyblue;
+    opacity:0.5;
+}
+.contact {
+    display:flex;
+    align-items:center;
+}
+.contact-details {
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+}
+    
+.contact h2 {
+    padding:30px;
+}
+.images p {
+    position:relative;
+    left:50px;
+    bottom:100px;
+    margin:0px;
+    padding:0px;
+    background-color: skyblue;
+    font-size:30px;
+    width:fit-content
+}
+.first-project-image:hover {
+    opacity:1;
+    transition:all 0.5s ease-in-out;
+}
+.other-projects-image:hover {
+    opacity:1;
+    transition:all 0.5s ease-in-out;
 }
