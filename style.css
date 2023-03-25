@@ -1,6 +1,11 @@
 * {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+
+body {
+   width:fit-content; 
+}
+
 h1 {
     background-color: skyblue;
     font-size:50px;
@@ -10,13 +15,16 @@ h1 {
     position:relative;
     top:30px;
 }
+
 h2 {
     font-size: 40px;
     
 }
+
 header {
     background-color: rgb(24, 49, 49)
 }
+
 .menu {
     display:flex;
     flex-direction: row;
@@ -24,6 +32,7 @@ header {
     position:relative;
     top:-60px;
 }
+
 ul a {
     text-decoration:underline;
     margin:0px 30px 0px 0px;
@@ -31,16 +40,40 @@ ul a {
     font-size:25px;
     color:skyblue;
 }
+
 .cool-stuff {
     background-image: url();
     opacity:0.5;
     height:150px;
-}   
+}  
+/* This applies below 992px */
+
+@media screen and (min-width: 768px) {
+    .about-me h2 {
+        margin:30px;
+    }
+    p {
+        margin:30px;
+        padding:10px;
+        border-radius: 10px;
+        text-align: justify;
+        background-color: skyblue;
+    }
+    .my-work h2 {
+        margin:30px;
+    }
+    .images {
+        border:none;
+    }
+}
+@media screen and (min-width: 992px) {
+
 .about-me {
     display:flex;
     align-items:flex-start;
-    padding:30px;
+    padding:10px;
 }
+
 p {
     font-size:20px;
     padding:30px;
@@ -48,40 +81,53 @@ p {
     border-left-style: solid;
     border-left-width: 5px;
     border-left-color: rgb(24, 49, 49);
-}
-.about-me h2 {
-    margin-right:20px;
-}
-.my-work {
+    border-radius: 0px;
+    text-align:justify; 
+    background-color: white;
+    }
+
+    .about-me h2 {
+    margin-right:20px;  
+    }
+
+
+    .my-work {
     display:flex;
     align-items:flex-start
-}
-.images {
+    }
+
+    .images {
     position:relative;
-    left:65px;
+    left:45px;
     border-left-style:solid;
     border-left-width:5px;
     border-left-color:rgb(24, 49, 49);
+    }
 }
+
 .first-project-image {
     margin:20px;
     height:500px;
-    width:1200px;
+    width:1000px;
     border:5px solid skyblue;
     opacity:0.5;
+    
 }
+
 .other-projects {
     display:inline-block;
     width:100%;
     
 }
+
 .other-projects-image{
     margin:20px;
     height:300px;
-    width:572px;
+    width:472px;
     border: 5px solid skyblue;
     opacity:0.5;
 }
+
 .contact {
     display:flex;
     align-items:center;
@@ -113,3 +159,4 @@ p {
     opacity:1;
     transition:all 0.5s ease-in-out;
 }
+
