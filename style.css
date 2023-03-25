@@ -42,10 +42,20 @@ ul a {
 }
 
 .cool-stuff {
-    background-image: url();
-    opacity:0.5;
+    margin-bottom: 40px;
+    opacity: 0.3;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #7bcac855, #7bcac8 );
+    opacity:1;
     height:150px;
 }  
+#mypix {
+    position:relative;
+    left:300px;
+    bottom:80px;
+    opacity:1;
+    object-fit: cover;
+    height:inherit;
+}
 /* This applies below 992px */
 
 @media screen and (min-width: 768px) {
