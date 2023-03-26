@@ -15,4 +15,4 @@ The following image represents the view of the home page upon completion of the 
 ## Link to page
 
 The link to the page can be found below
-![Webpage] (https://anayoifediora.github.io/Code-Refactor-Challenge/)
+![Webpage] (https://anayoifediora.github.io/Apps-Portfolio/)
