@@ -40,7 +40,7 @@ ul a {
     font-size:25px;
     color:skyblue;
 }
-
+/* Background image code obtained from the internet on magicpattern.design*/
 .cool-stuff {
     margin-bottom: 40px;
     opacity: 0.3;
@@ -130,6 +130,10 @@ p {
     
 }
 
+.image-container {
+    display:inline-block;
+}
+
 .other-projects-image{
     margin:20px;
     height:300px;
@@ -169,4 +173,3 @@ p {
     opacity:1;
     transition:all 0.5s ease-in-out;
 }
-
