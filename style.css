@@ -104,7 +104,7 @@ p {
 
     .my-work {
     display:flex;
-    align-items:flex-start
+    align-items:flex-start;
     }
 
     .images {
@@ -133,6 +133,7 @@ p {
 
 .image-container {
     display:inline-block;
+    
 }
 
 .other-projects-image{
